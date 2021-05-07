@@ -1,0 +1,14 @@
+package ttcn3
+
+type parser struct {
+}
+
+{{range .}}
+func (p *parser) parse{{.Name.String}}() bool {
+
+{{ if eq (type .Expr) "Token"}}yay
+{{end}}
+
+}
+{{end}}
+

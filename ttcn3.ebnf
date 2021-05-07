@@ -1,0 +1,6 @@
+Module = "module" .
+
+//Name   = Ident .
+//Ident  = Alpha { Alpha | Number } .
+//Alpha  = "a"…"z" | "A"…"Z" | "_" .
+//Number = "0"…"9" .
